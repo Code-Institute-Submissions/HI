@@ -1,5 +1,5 @@
-/* title page */
-
+/* ----------------------------------------------------  */
+/* ---------------------------------------------------- title page */
 .bg-image-title-page{
     background-image: url("images/nq_bike.jpg");
     height: 95vh;
@@ -11,140 +11,102 @@
     border: solid black 4vh;
     }
 
+.title-page-border{
+        border-top: 10px solid rgba(212,175,55,0.3);
+        border-bottom: 10px solid rgba(212,175,55,0.3);
+    }
+
 .title-page-text-main{
       color:  rgba(212,175,55,0.3);
       font-family: 'Oswald', sans-serif;
       letter-spacing: 10px;
-      font-size: 5em;
-      font-weight: bold;
-      background-color: transparent;
+      font-size: 5vh;
       font-weight: 700;
       text-transform: uppercase;
+      background-color: transparent;
+      text-align: center;
     }
 
 .title-page-text-main:hover{
-      color: rgba(212,175,55,0.8);
+      color: rgba(212,175,55,0.6);
       text-decoration: none;
     }
 
-.title-page-border{
-    border-top: 10px solid rgba(212,175,55,0.3);
-      border-bottom: 10px solid rgba(212,175,55,0.3);
+.title-page-border:hover{
+        border-top: 10px solid rgba(212,175,55,0.6);
+        border-bottom: 10px solid rgba(212,175,55,0.6);
+        text-decoration: none;
+      }
+
+/* ---------------------------------------------------- colors */
+
+.border{
+    border: solid 5px white;
 }
 
-#title_page_footer{
-    color:rgba(165, 143, 70, 1);
-    border-top: solid rgba(212,175,55,0.8);
-    border-bottom: solid rgba(212,175,55,0.8);
-    background-color: rgba(0,0,0,0.5);
+.menu-title-color{
+    background-color: #222222;
+    border-top: solid 5px rgba(212,175,55,0.6);
+    border-bottom: solid 5px rgba(212,175,55,0.6);
+}
+
+.footer-color{
+    background-color: #222222;
+    border-top: solid 5px rgba(212,175,55,0.6);
+    border-bottom: solid 5px rgba(212,175,55,0.6);
+}
+
+/* ---------------------------------------------------- home page */
+
+.menu{
+    color: rgba(212,175,55,0.6);
+    text-transform: uppercase;
     font-family: 'Oswald', sans-serif;
-    position: absolute;
-    top: 90%;
-    font-size: 1em; 
-    height: 2em;
-    text-transform: uppercase;
-    }
-
-#modal_text{
-    color:  rgba(212,175,55,0.8);
-    font-family: 'Raleway' sans-serif;
+    letter-spacing: 10px;
     text-align: center;
-    }
+    height: 10vh;
+    padding-top: 4vh;
+    margin-right: 0;
+    margin-left: 0;
+    list-style-type: none;
+}
+.menu a{
+    color: inherit;
+}
 
-#modal_body{
-    background-color: rgba(0,0,0,0.8)
-    }
+.menu:hover{
+    background-color: rgba(212,175,55,0.6);
+    color: #222222;
+    text-decoration: none;
+}
 
-#modal_button{
-    background-color: rgba(100, 100, 100, 0.5);
-    border: solid rgba(212,175,55,0.8);
-    border-radius: 10%;
-    height: 2em;
-    }
+.menu a:hover{
+    color: #222222;
+    text-decoration: none;
+}
 
-#element_background{
-    background-color:black;
-    height: 100vh;
-    }
+.menu-sticks{
+    position: fixed;
+}
 
-#earth{
-    background-image: url("images/earth.jpg");
-    height: 50vh;
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-attachment: fixed;
-    background-position: center;
-    overflow: hidden;
-    font-family: 'Oswald' sans-serif;
-    font-weight: bold;
-    font-size: 30vh;
-    text-align: center;
+/* ----------------------------------------------------  Footer */
+
+.footer-text{
+    color: rgba(212,175,55,0.6);
     text-transform: uppercase;
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
-    border-bottom: 2.5vh solid rgba(212,175,55,0.3);
-    border-right: 2.5vh solid rgba(212,175,55,0.3);
-    }
-
-#wind{
-    background-image: url("images/wind.jpg");
-    height: 50vh;
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-attachment: fixed;
-    background-position: center;
-    overflow: hidden;
-    font-family: 'Oswald' sans-serif;
-    font-weight: bold;
-    font-size: 30vh;
+    font-family: 'Oswald', sans-serif;
+    letter-spacing: 10px;
     text-align: center;
-    text-transform: uppercase;
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
-    border-bottom: 2.5vh solid rgba(212,175,55,0.3);
-    border-left: 2.5vh solid rgba(212,175,55,0.3);
-    }
+    height: 10vh;
+    padding-top: 4vh;
+    margin-right: 0;
+    margin-left: 0;
+    list-style-type: none;
+}
 
-#fire{
-    background-image: url("images/fire.jpg");
-    height: 50vh;
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-attachment: fixed;
-    background-position: center;
-    overflow: hidden;
-    font-family: 'Oswald' sans-serif;
-    font-weight: bold;
-    font-size: 30vh;
-    text-align: center;
-    text-transform: uppercase;
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
-    border-right: 2.5vh solid rgba(212,175,55,0.3);
-    border-top: 2.5vh solid rgba(212,175,55,0.3);
-    }
+/* ---------------------------------------------------- bootstrap adjustments */
 
-#water{
-    background-image: url("images/water.jpg");
-    height: 50vh;
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-attachment: fixed;
-    background-position: center;
-    overflow: hidden;
-    font-family: 'Oswald' sans-serif;
-    font-weight: bold;
-    font-size: 30vh;
-    text-align: center;
-    text-transform: uppercase;
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
-    border-left: 2.5vh solid rgba(212,175,55,0.3);
-    border-top: 2.5vh solid rgba(212,175,55,0.3);
-    }
-
-/* create :hover for earth/wind/fire/water that displays text over image */
-
-#hexed_title{
-    color: rgba(212,175,55);
+.no-gutters{
+    margin-right: 0;
+    margin-left: 0;
 }
