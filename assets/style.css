@@ -1,4 +1,63 @@
+@import url('https://fonts.googleapis.com/css?family=Oswald:100,200,300,400,500,600,700|Raleway:100,200,300,400,500,600,700');
+
 /* ----------------------------------------------------  */
+
+/* ---------------------------------------------------- colors */
+
+.border{
+    border: solid 10px purple;
+    background-color: #222222;
+}
+
+.menu-title-color{
+    background-color: #222222;
+    border-top: solid 5px rgba(212,175,55,0.6);
+    border-bottom: solid 5px rgba(212,175,55,0.6);
+}
+
+.footer-color{
+    background-color: #222222;
+    border-top: solid 5px rgba(212,175,55,0.6);
+    border-bottom: solid 5px rgba(212,175,55,0.6);
+}
+
+.bg-color-name-title{
+    background-color:#222222;
+}
+
+.bg-color-three-reasons{
+    background-color: #222222;
+}
+
+.ui-menu-color-home{
+    background-color: #222222;
+}
+.ui-menu-color-resume{
+    background-color: #222222;
+}
+.ui-menu-color-contact{
+    background-color: #222222;
+}
+.ui-menu-color-download{
+    background-color: #222222;
+}
+
+.bg-color-personal-info{
+    background-color: #222222;
+}
+
+.bg-color-work-history{
+    background-color: #222222;
+}
+
+.bg-color-contact{
+    background-color: #222222;
+}
+
+.top-bottom-border{
+    border-top: 5px solid rgba(212,175,55, .6);
+    border-bottom: 5px solid rgba(212,175,55, .6);
+}
 /* ---------------------------------------------------- title page */
 .bg-image-title-page{
     background-image: url("images/nq_bike.jpg");
@@ -36,27 +95,60 @@
         border-top: 10px solid rgba(212,175,55,0.6);
         border-bottom: 10px solid rgba(212,175,55,0.6);
         text-decoration: none;
-      }
+    }
 
-/* ---------------------------------------------------- colors */
+      /* ----------------------------------------------- Special padding/margins/text */
 
-.border{
-    border: solid 5px white;
+h1,h2.h3,h4{
+    margin: 0;
 }
 
-.menu-title-color{
+.uppercase{
+    text-transform: uppercase;
+}
+
+.general-sub{
+    font-family: "Oswald", sans-serif;
+    font-weight: 300;
+    color: rgba(212,175,55,0.6);
+}
+
+.in-line-block{
+    display: inline-block;
+}
+
+.row-table{
+    display: table;
+}
+
+.section-column{
+    display: table-cell;
+    padding: 0 30px 30px;
+    float: none;
+    color: #fafafa;
+}
+.history-header,
+.section-heading{
+    font-family: "Oswald", sans-serif;
+    font-weight: 300;
+    margin-top: 25px;
+    margin-bottom: 40px;
+    letter-spacing: 10px;
+    color: #fafafa;
+}
+
+.no-gutters{
+    margin-right: 0;
+    margin-left: 0;
+}
+
+.menu-buffer{
     background-color: #222222;
-    border-top: solid 5px rgba(212,175,55,0.6);
-    border-bottom: solid 5px rgba(212,175,55,0.6);
+    height: 11vh;
+    border-bottom: 5px solid rgba(212,175,55,0.3);
 }
 
-.footer-color{
-    background-color: #222222;
-    border-top: solid 5px rgba(212,175,55,0.6);
-    border-bottom: solid 5px rgba(212,175,55,0.6);
-}
-
-/* ---------------------------------------------------- home page */
+/* ---------------------------------------------------- header */
 
 .menu{
     color: rgba(212,175,55,0.6);
@@ -87,6 +179,7 @@
 
 .menu-sticks{
     position: fixed;
+
 }
 
 /* ----------------------------------------------------  Footer */
@@ -104,9 +197,238 @@
     list-style-type: none;
 }
 
-/* ---------------------------------------------------- bootstrap adjustments */
+/* ----------------------------------------------------  welcome page */
 
-.no-gutters{
-    margin-right: 0;
-    margin-left: 0;
+.welcome-bg-image{
+    background-image: url(../assets/images/norhtern_quarter_1.jpeg);
+    height: 95vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+    overflow: hidden;
+    border: solid black 4vh;
 }
+
+.welcome-text{
+    color:  rgba(212,175,55,0.6);
+    background-color:rgba(34, 34, 34, .8);
+    font-family: 'Raleway', sans-serif;
+    font-size: 20px;
+    margin-top: 450px;
+}
+
+/* ---------------------------------------------------- ethos */
+
+header {
+    margin: 0;
+}
+
+.logo{
+    background: url('../assets/images/happy_man.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 360px;
+    transition: all 1s ease-in-out;
+    -moz-transition: all 1s ease-in-out;
+    -webkit-transition: all 1s ease-in-out;
+}
+
+.name{
+    font-family: "Oswald", sans-serif;
+    font-weight: 100;
+    font-size: 46px;
+    margin-top: 50px;
+    color: rgba(212,175,55,0.6);
+    letter-spacing: 10px;
+    margin-left: 50px;
+    }
+
+.title{
+    font-family: 'Raleway', sans-serif;
+    font-weight: 200;
+    font-size: 28px;
+    margin-top: 20px;
+    margin-bottom: 90px;
+    color: rgba(212,175,55,0.6);
+    letter-spacing: 10px;
+    margin-left: 50px;
+    
+    
+}
+
+.list-inline-item:not(:last-child){
+    margin: 0;
+}
+
+.menucontainer{
+    font-size: 0;
+}
+
+#nav{
+    margin: 0;
+}
+
+#nav div{
+    font-size: 14px;
+    padding: 0;
+}
+
+.menuitem{
+    height: 120px;
+    text-align: center;
+    padding: 0;
+    border-top: 5px solid rgba(212,175,55,0.6);
+    border-bottom: 5px solid rgba(212,175,55,0.6);
+}
+
+.menuitem a{
+    width: 100%;
+    text-decoration: none;
+    color: rgba(212,175,55,0.6);
+    height: 120px;
+}
+
+.menuitem a i{
+    padding: 22px;
+    display: block;
+    color: rgba(212,175,55,0.6);
+    font-size: 26px;
+    border-top: rgba(212,175,55,0.6);
+    border-bottom: rgba(212,175,55,0.6);
+}
+
+.menuitem span{
+    display: block;
+    width: 100%;
+    padding-top: 5px;
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 14px;
+    font-weight: 300px;
+    letter-spacing: 2px;
+    color: rgba(212,175,55,0.6);
+}
+
+
+.hvr-sweep-to-bottom::before{
+    color: rgba(212,175,55,0.6);
+    background-color: rgba(0, 0, 0, 0.2);
+}
+
+/* ---------------------------------------------------- CV */
+
+
+
+/* ---------------------------------------------------- history */
+
+
+
+/* ---------------------------------------------------- contact */
+
+
+
+/* ----------------------------------------------- headings */
+
+/* header {
+    margin: 0;
+}
+
+.heading{
+    margin-left: 50px;
+    
+}
+
+.logo{
+    background: url('../assets/images/happy_man.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 360px;
+    transition: all 1s ease-in-out;
+    -moz-transition: all 1s ease-in-out;
+    -webkit-transition: all 1s ease-in-out;
+}
+
+.name{
+    font-family: "Oswald", sans-serif;
+    font-weight: 100;
+    font-size: 46px;
+    margin-top: 50px;
+    color: rgba(212,175,55,0.6);
+    letter-spacing: 10px;
+    }
+
+.title{
+    font-family: 'Raleway', sans-serif;
+    font-weight: 200;
+    font-size: 28px;
+    margin-top: 20px;
+    margin-bottom: 90px;
+    color: rgba(212,175,55,0.6);
+    letter-spacing: 10px;
+    
+    
+}
+
+.list-inline-item:not(:last-child){
+    margin: 0;
+}
+
+.menucontainer{
+    font-size: 0;
+}
+
+#nav{
+    margin: 0;
+}
+
+#nav li{
+    font-size: 14px;
+    padding: 0;
+}
+
+.menuitem{
+    height: 120px;
+    text-align: center;
+    padding: 0;
+    border-top: 5px solid rgba(212,175,55,0.6);
+    border-bottom: 5px solid rgba(212,175,55,0.6);
+}
+
+.menuitem a{
+    width: 100%;
+    text-decoration: none;
+    color: rgba(212,175,55,0.6);
+    height: 120px;
+}
+
+.menuitem a i{
+    padding: 22px;
+    display: block;
+    color: rgba(212,175,55,0.6);
+    font-size: 26px;
+    border-top: rgba(212,175,55,0.6);
+    border-bottom: rgba(212,175,55,0.6);
+}
+
+.menuitem span{
+    display: block;
+    width: 100%;
+    padding-top: 5px;
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 14px;
+    font-weight: 300px;
+    letter-spacing: 2px;
+    color: rgba(212,175,55,0.6);
+}
+
+.content-cv{
+    margin-top: 10vh;
+} */
+
+
+
+
