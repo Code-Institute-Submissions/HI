@@ -327,58 +327,53 @@ header {
     color: #650000;
 }
 
-.cv-timeline div{
+.cv-timeline{
+    
+}
+
+.cv-year-title-row{
     font-family: 'Oswald' sans-serif;
     text-transform: uppercase;
     letter-spacing: 10px;
     font-weight: 700;
     color: #f6f6f6;
-    border-bottom: 5px solid #B28228;
-    height: 100px;
-    text-orientation: sideways;
+    margin-left: 50px;
+    margin-top: 20px;
+    width: 100%;
+
+    
 }
 
-.cv-timeline-right{
-    border-radius: 10px;
+.text-rotate{
+    writing-mode:vertical-lr ;
+    text-align: right;
+    margin: 0;
+    padding: 0;
 }
 
+.cv-year-row div{
+    border: solid 2px white;
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    list-style-type: none;
+}
+
+.cv-year-row div ul li{
+    list-style-type: none;
+    margin: 0%;
+    padding: 0%;
+    border-bottom: solid 1px #005841;
+}
 /* ---------------------------------------------------- Ethos */
 
-.ethos-one{
-    background-image: url(../assets/images/water.jpg);
+
+.ethos-bg{
+    background-image: url(..//assets/images/hexed_logo_blank.png);
     background-repeat: no-repeat;
-    background-size: cover;
-    background-attachment: fixed;
+    background-size: contain;
     background-position: center;
     overflow: hidden;
-    height: 400px;
- }
-.ethos-two{
-    background-image: url(../assets/images/earth.jpg);
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-attachment: fixed;
-    background-position: center;
-    overflow: hidden;
-    height: 400px;
-}
-.ethos-three{
-    background-image: url(../assets/images/fire.jpg);
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-attachment: fixed;
-    background-position: center;
-    overflow: hidden;
-    height: 400px;
-}
-.ethos-four{
-    background-image: url(../assets/images/wind.jpg);
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-attachment: fixed;
-    background-position: center;
-    overflow: hidden;
-    height: 400px;
 }
 
 .ethos-text h3{
