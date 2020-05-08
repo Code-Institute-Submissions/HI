@@ -200,6 +200,39 @@ h1,h2.h3,h4{
     list-style-type: none;
     height: 60px;
     margin-bottom: 30px;
+    text-decoration: none;
+}
+
+.footer-text a{
+    color: #b28228;
+    text-transform: uppercase;
+    font-family: 'Oswald', sans-serif;
+    letter-spacing: 10px;
+    text-align: center;
+    height: 10vh;
+    padding-top: 4vh;
+    margin-right: 0;
+    margin-left: 0;
+    list-style-type: none;
+    height: 60px;
+    margin-bottom: 30px;
+    text-decoration: none;
+}
+
+.footer-text a:hover{
+    color: #b28228;
+    text-transform: uppercase;
+    font-family: 'Oswald', sans-serif;
+    letter-spacing: 10px;
+    text-align: center;
+    height: 10vh;
+    padding-top: 4vh;
+    margin-right: 0;
+    margin-left: 0;
+    list-style-type: none;
+    height: 60px;
+    margin-bottom: 30px;
+    text-decoration: underline;
 }
 
 /* ----------------------------------------------------  welcome page */
@@ -231,6 +264,8 @@ header {
 
 .logo{
     background: url('../assets/images/happy_man.jpg');
+    border: solid 5px #1c1c1c;
+    margin-top: 10px;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -248,6 +283,8 @@ header {
     color: #f6f6f6;
     letter-spacing: 10px;
     margin-left: 50px;
+    background-color: #1c1c1c;
+    padding: 10px;
     }
 
 .title{
@@ -259,6 +296,8 @@ header {
     color: #f6f6f6;
     letter-spacing: 10px;
     margin-left: 50px;
+    background-color: #1c1c1c;
+    padding: 10px;
    }
 
 .menuitem{
@@ -327,10 +366,6 @@ header {
     color: #650000;
 }
 
-.cv-timeline{
-    
-}
-
 .cv-year-title-row{
     font-family: 'Oswald' sans-serif;
     text-transform: uppercase;
@@ -365,15 +400,115 @@ header {
     padding: 0%;
     border-bottom: solid 1px #005841;
 }
+
+.history-header{
+    font-family: 'Oswald', sans-serif;
+    color: #f6f6f6;
+    text-align: center;
+    text-transform: uppercase;
+    letter-spacing: 10px;
+    height: 50px;
+    padding-top: 25px;
+    padding-bottom: 25px;
+    margin-top: 5px;
+    padding-top: 7.5px;
+}
+
+.timeline-item{
+    padding: 4em 2em 0em 2em;
+    position: relative;
+    color: #f6f6f6;
+    border-left: 1px solid;
+}
+
+.timeline-item p{
+    padding: 0;
+    margin: 0; 
+}
+
+.timeline-item:before {
+    content: attr(data-dates);
+    position: absolute;
+    left: 2.5em;
+    top: 3em;
+    display: block;
+    font-family: 'Exo', sans-serif;
+    font-weight: 500;
+    font-size: 0.8em;
+    padding: 0;
+    margin: 0;
+}
+
+.timeline-item:after {
+    width: 12px;
+    height: 12px;
+    display: block;
+    top: 2.4em;
+    position: absolute;
+    left: -6px;
+    border-radius: 12px;
+    content: '';
+    background: #f6f6f6;
+}
+
+.history-items {
+    margin-bottom: 30px;
+}
+.three-reasons-icon{
+    font-size: 26px;
+    color: #b28228;
+}
+
+.skills-title{
+    font-family: 'Oswald', sans-serif;
+    color: #B28228;
+    text-align: center;
+    text-transform: uppercase;
+    letter-spacing: 10px;
+    height: 50px;
+    padding-top: 25px;
+    padding-bottom: 25px;
+    margin-top: 5px;
+    padding-top: 7.5px;
+}
+
+.skills-text{
+    font-family: 'Raleway', sans-serif;
+    color: #b28228;
+    margin-top: 5px;
+    padding-top: 25px;
+    padding-bottom: 25px;
+}
+
+.progress{
+    position: relative;
+    height: 25px;
+    margin-bottom: 4px;
+}
+
+.progress-type{
+    position: absolute;
+    left: 0px;
+    font-weight: 400;
+    padding: 0px 10px 10px 10px;
+    color: #B28228;
+    background-color: rgba(25, 25, 25, 0.2);
+}
+
+.progress-section{
+    margin: 40px 20px;
+}
 /* ---------------------------------------------------- Ethos */
 
 
 .ethos-bg{
-    background-image: url(..//assets/images/hexed_logo_blank.png);
-    background-repeat: no-repeat;
+    background-image: url(..//assets/images/bg-01.jpg);
+    background-color: #3b3b3b;
+    background-repeat: repeat;
     background-size: contain;
     background-position: center;
     overflow: hidden;
+    padding-top: 25px;
 }
 
 .ethos-text h3{
@@ -384,6 +519,9 @@ header {
     text-transform: uppercase;
     letter-spacing: 10px;
     height: 50px;
+    padding-top: 25px;
+    padding-bottom: 25px;
+    border: solid 2px #1c1c1c;
     margin-top: 5px;
     padding-top: 7.5px;
 }
@@ -392,9 +530,12 @@ header {
     font-family: 'Raleway', sans-serif;
     color: #f6f6f6;
     background-color: rgba(23.1, 23.1, 23.1, 0.7);
-    letter-spacing: 10px;
+    border: solid 2px #1c1c1c;
     margin-top: 5px;
-    padding: 10px;
+    padding-top: 25px;
+    padding-bottom: 25px;
+    text-align: center;
+    
 }
 
 /* ---------------------------------------------------- history */
@@ -406,26 +547,82 @@ header {
     background-position: center;
     overflow: hidden;
     height: 500px;
+    border: solid 5px #1c1c1c;
+    margin-top: 10px;
+}
+
+.history-text{
+    background-image: url(..//assets/images/bg-01.jpg);
+    background-color: #3b3b3b;
+    background-repeat: repeat;
+    background-size: contain;
+    background-position: center;
+    overflow: hidden;
+    padding-top: 25px;
 }
 
 .history-text h3{
     font-family: 'Oswald', sans-serif;
-    color: #f6f6f6;
+    color: #B28228;
+    background-color: rgba(23.1, 23.1, 23.1, 0.7);
     text-align: center;
     text-transform: uppercase;
     letter-spacing: 10px;
     height: 50px;
+    padding-top: 25px;
+    padding-bottom: 25px;
+    border: solid 2px #1c1c1c;
     margin-top: 5px;
-    padding-top: 10px;
+    padding-top: 7.5px;
 }
 .history-text p{
-    font-family: 'Raleway' sans-serif;
+    font-family: 'Raleway', sans-serif;
     color: #f6f6f6;
-    margin-top: 15px;
-    padding: 10px;
+    background-color: rgba(23.1, 23.1, 23.1, 0.7);
+    border: solid 2px #1c1c1c;
+    margin-top: 5px;
+    padding-top: 25px;
+    padding-bottom: 25px;
 }
 
 /* ---------------------------------------------------- contact */
 
+.contact-bg{
+    background-image: url(..//assets/images/bg-01.jpg);
+    background-color: #3b3b3b;
+    background-repeat: repeat;
+    background-size: contain;
+    background-position: center;
+    overflow: hidden;
+    padding-top: 25px;
+}
 
+.contact-heading{
+    font-family: 'Oswald', sans-serif;
+    color: #B28228;
+    background-color: rgba(23.1, 23.1, 23.1, 0.7);
+    text-align: center;
+    text-transform: uppercase;
+    letter-spacing: 10px;
+    height: 50px;
+    padding-top: 25px;
+    padding-bottom: 25px;
+    border: solid 2px #1c1c1c;
+    margin-top: 5px;
+    padding-top: 7.5px; 
+}
+
+.center-form{
+    padding-top: 10px;
+    margin: 0 auto;
+    max-width: 70%;
+}
+
+button[type="submit"]{
+    margin-top: 15px;
+    margin-bottom: 20px;
+    color: #fafafa;
+    background-color: #650000;
+    border: none;
+}
 
