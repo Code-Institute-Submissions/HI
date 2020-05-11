@@ -38,10 +38,6 @@ I used Font awesome for some icons
 I used some stock pictures from google that had permsion to be used and plan to replace tehm with art work of my own shortly
 
 
-- [JQuery](https://jquery.com)
-    - The project uses **JQuery** to simplify DOM manipulation.
-
-
 ## Testing
 
 All pages have been navigated to an function as desiered.
