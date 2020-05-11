@@ -1,36 +1,42 @@
-# Your Project's Name
+# Hexed Industries
 
-One or two paragraphs providing an overview of your project.
-
-Essentially, this part is your sales pitch.
+Start up website design company. I have decided to create a live website including domain and hosting to help understand the whole process. The website is a basic shell to experiment with diffrent styles and themes and allow me to generate logos, titles and background using vector art. The website will grow and become more coherant along with my skills. I imagin once this course is over I will re-write a large amount of the code in an attempt to clean it up and stream line it along with finding way to improve load times. 
  
 ## UX
- 
-Use this section to provide insight into your UX process, focusing on who this website is for, what it is that they want to achieve and how your project is the best way to help them achieve these things.
 
-In particular, as part of this section we recommend that you provide a list of User Stories, with the following general structure:
-- As a user type, I want to perform an action, so that I can achieve a goal.
+The site is simple in structure and doesnt currently directly sell anything. it does give a user the opportunity to veiw Hexed Industries with future development letting me both show case what I can do along with giving information on previous projects as well as other services i can provide.
 
-This section is also where you would share links to any wireframes, mockups, diagrams etc. that you created as part of the design process. These files should themselves either be included as a pdf file in the project itself (in an separate directory), or just hosted elsewhere online and can be in any format that is viewable inside the browser.
+If a user wanted to send me a message there is a section in the footer on every page.
+
+if a user wanted to veiw my Cv it is easy to find in the header. a pdf version is also easy to locate within this section.
+
+I didnt use a wire frame to help me design this site
 
 ## Features
 
-In this section, you should go over the different parts of your project, and describe each in a sentence or so.
+The site is basic currently, it has 4 main pages consiting of content with one page conatining a CV style borrowed from the previous elements completed. It also contains a contact me section.
  
 ### Existing Features
-- Feature 1 - allows users X to achieve Y, by having them fill out Z
-- ...
 
-For some/all of your features, you may choose to reference the specific project files that implement them, although this is entirely optional.
+the plan for the future is to use hexed industries as an unbrella for diffrent work streams for my skill sets including automotive, climbing coaching and design as well as any that i may want to grow my intrest in. I will use the website to create these sections as mini companies the can display their services.
 
-In addition, you may also use this section to discuss plans for additional features to be implemented in the future:
+I would like to use java to provide some animation as well as the possability of using 3d artwork on the page.
 
-### Features Left to Implement
-- Another feature idea
 
 ## Technologies Used
 
-In this section, you should mention all of the languages, frameworks, libraries, and any other tools that you have used to construct this project. For each, provide its name, a link to its official site and a short sentence of why it was used.
+I wrote this site on Visual Studio
+
+I completed the grpahic work on Affinity Designer
+
+I used Bootstrap to help with the structure and functionality of the site
+
+I used google fonts for the font type
+
+I used Font awesome for some icons
+
+I used some stock pictures from google that had permsion to be used and plan to replace tehm with art work of my own shortly
+
 
 - [JQuery](https://jquery.com)
     - The project uses **JQuery** to simplify DOM manipulation.
