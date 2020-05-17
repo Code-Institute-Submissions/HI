@@ -58,3 +58,5 @@ A domiain and host were aquired, the FTP proces was completed using 'filezila' a
 ### Acknowledgements
 
 - the project is a mash together of a basic idea I have that i wish to develop using the skills I am learning and the CV design done with CI
+
+-w3schools was used as a refrence library when looking for diffrent ideas or soultions to the code.
